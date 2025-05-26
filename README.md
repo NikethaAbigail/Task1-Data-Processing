@@ -43,12 +43,11 @@ Complete and efficient preprocessing pipeline for the **AI Developer Productivit
     Q1, Q3 = df[feature].quantile([0.25, 0.75])
     IQR = Q3 - Q1
     outliers = df[(df[feature] < Q1 - 1.5 * IQR) | (df[feature] > Q3 + 1.5 * IQR)]
-    ```
-![Alt Outliters](outlier.png.png)
-    
+    ``` 
 - Visualize with **boxplots**
 
 ### 5. 🧹 Outlier Removal  
+![Alt Outliters](outlier.png.png)
 - Remove only if outliers are **<10%** of data  
 - Preserves valuable data while filtering anomalies  
 
@@ -66,16 +65,16 @@ Complete and efficient preprocessing pipeline for the **AI Developer Productivit
 - 🔥 Correlation heatmap  
 - 📊 Scaled feature distribution plots  
 - 📦 Outlier detection boxplots
-  ![Alt Graphs](graphs.png.png)
-  ![Alt Boxplot](boxplot.png.png)
+
+![Alt Graphs](graphs.png.png)
+![Alt Boxplot](boxplot.png.png)
 ---
 
 ### 💾 Export Clean Dataset
 
+![Alt Report](report.png.png)
 - 💾 Save final cleaned data: `ai_dev_productivity_cleaned.csv`  
 - 📄 Generate visual summaries and reports
-![Alt Report](report.png.png)
- 
 
 ---
 
