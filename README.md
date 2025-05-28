@@ -67,7 +67,7 @@ Complete and efficient preprocessing pipeline for the **AI Developer Productivit
 - 📦 Outlier detection boxplots
 
 ![Alt Graphs](graphs.png.png)
-![Alt Boxplot](boxplot.png.png)
+
 ---
 
 ### 💾 Export Clean Dataset
